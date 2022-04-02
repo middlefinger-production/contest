@@ -1,5 +1,0 @@
-C:/Users/micha/Documents/GitHub/contest/qt PC/build-Contest-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/CMakeFiles/Contest.dir
-C:/Users/micha/Documents/GitHub/contest/qt PC/build-Contest-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
-C:/Users/micha/Documents/GitHub/contest/qt PC/build-Contest-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
-C:/Users/micha/Documents/GitHub/contest/qt PC/build-Contest-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/CMakeFiles/Contest_autogen_timestamp_deps.dir
-C:/Users/micha/Documents/GitHub/contest/qt PC/build-Contest-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/CMakeFiles/Contest_autogen.dir
