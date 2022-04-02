@@ -1,0 +1,21 @@
+# ninja log v5
+11	384	6706132214535658	Contest_autogen/timestamp	2cc17d73c4843937
+2543	2782	6706132238492075	Contest.exe	c45e2fba5be2785f
+11	384	6706132214535658	Contest_autogen/mocs_compilation.cpp	2cc17d73c4843937
+11	384	6706132214535658	C:/Users/micha/Documents/GitHub/contest/qt PC/build-Contest-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/Contest_autogen/timestamp	2cc17d73c4843937
+11	384	6706132214535658	C:/Users/micha/Documents/GitHub/contest/qt PC/build-Contest-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/Contest_autogen/mocs_compilation.cpp	2cc17d73c4843937
+401	2542	6706132236131538	CMakeFiles/Contest.dir/mainwindow.cpp.obj	e5905acead4677d2
+1245	3322	6706116228937868	CMakeFiles/Contest.dir/Contest_autogen/mocs_compilation.cpp.obj	95b70736b252ad45
+1249	3542	6706116231158379	CMakeFiles/Contest.dir/main.cpp.obj	76ba649d0bc1ca80
+11	385	6706132312380836	Contest_autogen/timestamp	2cc17d73c4843937
+11	385	6706132312380836	Contest_autogen/mocs_compilation.cpp	2cc17d73c4843937
+11	385	6706132312380836	C:/Users/micha/Documents/GitHub/contest/qt PC/build-Contest-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/Contest_autogen/timestamp	2cc17d73c4843937
+11	385	6706132312380836	C:/Users/micha/Documents/GitHub/contest/qt PC/build-Contest-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/Contest_autogen/mocs_compilation.cpp	2cc17d73c4843937
+402	2504	6706132333577896	CMakeFiles/Contest.dir/mainwindow.cpp.obj	e5905acead4677d2
+2504	2744	6706132335935165	Contest.exe	c45e2fba5be2785f
+11	375	6706132396242378	Contest_autogen/timestamp	2cc17d73c4843937
+11	375	6706132396242378	Contest_autogen/mocs_compilation.cpp	2cc17d73c4843937
+11	375	6706132396242378	C:/Users/micha/Documents/GitHub/contest/qt PC/build-Contest-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/Contest_autogen/timestamp	2cc17d73c4843937
+11	375	6706132396242378	C:/Users/micha/Documents/GitHub/contest/qt PC/build-Contest-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/Contest_autogen/mocs_compilation.cpp	2cc17d73c4843937
+393	2532	6706132417803993	CMakeFiles/Contest.dir/mainwindow.cpp.obj	e5905acead4677d2
+2532	2787	6706132420304041	Contest.exe	c45e2fba5be2785f
