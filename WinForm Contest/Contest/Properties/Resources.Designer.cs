@@ -63,6 +63,26 @@ namespace Contest.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ezgif_1_9ccfa7403f {
+            get {
+                object obj = ResourceManager.GetObject("ezgif-1-9ccfa7403f", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ezgif_1_dfe5273455 {
+            get {
+                object obj = ResourceManager.GetObject("ezgif-1-dfe5273455", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ezgif_5_db2e5186a0 {
             get {
                 object obj = ResourceManager.GetObject("ezgif-5-db2e5186a0", resourceCulture);

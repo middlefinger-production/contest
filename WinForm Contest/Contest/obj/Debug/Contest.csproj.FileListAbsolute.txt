@@ -9,3 +9,14 @@ C:\Users\micha\source\repos\Contest\Contest\obj\Debug\Contest.csproj.GenerateRes
 C:\Users\micha\source\repos\Contest\Contest\obj\Debug\Contest.csproj.CoreCompileInputs.cache
 C:\Users\micha\source\repos\Contest\Contest\obj\Debug\Contest.exe
 C:\Users\micha\source\repos\Contest\Contest\obj\Debug\Contest.pdb
+C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\bin\Debug\Contest.exe.config
+C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\bin\Debug\Contest.exe
+C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\bin\Debug\Contest.pdb
+C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.csproj.AssemblyReference.cache
+C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.csproj.SuggestedBindingRedirects.cache
+C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.Contest.resources
+C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.Properties.Resources.resources
+C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.csproj.GenerateResource.cache
+C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.csproj.CoreCompileInputs.cache
+C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.exe
+C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.pdb
