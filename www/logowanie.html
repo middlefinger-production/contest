@@ -9,15 +9,22 @@
 <div id= "top">
     <img src = "logo.jpg" alt="Logo">
     <div id= "logowanie">
-        <button class="buttop"><a href="logowanie.html"><b>Log in</b></a></button>
+        <a href="logowanie.html">Log in</a>
     </div>
     <div id = "registry">
-        <button class="buttop"><a href="registry.html"><b>Sign up</b></a></button>
+        <a href="registry.html">Sign up</a>
     </div>
 </div>
 <div id="tresc">
-    <iframe src="glowna.html" name="kotlecik" height="100%" width="100%" frameborder="0">
-    </iframe>
+<form class="formularz" method="post" action="logowanie.php">
+    <h1>Login:</h1>
+    <input type="text" name="login">
+    <br><h1>Hasło:</h1>
+    <input type="password" name="password"><br>
+    <button type="reset" class="butlog"><b>Wyczyść</b></button>
+    <button type="submit" class="butlog"><b>Zaloguj</b></button>
+
+</form>
 </div>
 <div id="menu">
     <table>
