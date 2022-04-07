@@ -13,7 +13,7 @@ namespace Contest
 {
     public partial class Form1 : Form
     {
-        string connection_string = "user id=root;server=localhost;database=contest;";
+        string connection_string = "user id=root2;server=localhost;database=contest;password=123";
         public Form1()
         {
             InitializeComponent();
@@ -21,18 +21,26 @@ namespace Contest
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection(connection_string);
+            SqlConnection myConnection = new SqlConnection(connection_string);
+            
+            myConnection.Open();
+            SqlCommand myCommand = new SqlCommand("select login from login where id = 1;", myConnection);
+            myCommand.ExecuteNonQuery();
             try
             {
-                conn.Open();
+                SqlDataReader myReader = null;
+                myReader = myCommand.ExecuteReader();
+                while (myReader.Read())
+                {
+                    //Console.WriteLine(myReader["Column1"].ToString());
+                    //Console.WriteLine(myReader["Column2"].ToString());
+                    logintxt.Text = myReader["Column1"].ToString();
+                }
             }
             catch (Exception ex)
-            { Console.WriteLine(ex.Message); }
-            
-
-            
-
-            
+            {
+                Console.WriteLine(ex.ToString());
+            }
 
         }
     }
