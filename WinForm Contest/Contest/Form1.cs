@@ -33,8 +33,20 @@ namespace Contest
             {
                 if(haslo == dr.GetString(0))
                 {
-                    logintxt.Text = "JD";
+                    logintxt.Text = dr.GetString(0);
                 }
+                else
+                {
+                    label4.Visible = true;
+                    logintxt.Text = null;
+                    textBox2.Text = null;
+                }
+            }
+            else
+            {
+                label4.Visible = true;
+                logintxt.Text = null;
+                textBox2.Text = null;
             }
 
         }
