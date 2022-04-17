@@ -7,13 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
+using MySql.Data.MySqlClient;
 
 namespace Contest
 {
     public partial class Form1 : Form
     {
-        string connection_string = "user id=root2;server=localhost;database=contest;password=123";
         public Form1()
         {
             InitializeComponent();
@@ -21,25 +20,21 @@ namespace Contest
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection myConnection = new SqlConnection(connection_string);
-            
-            myConnection.Open();
-            SqlCommand myCommand = new SqlCommand("select login from login where id = 1;", myConnection);
-            myCommand.ExecuteNonQuery();
-            try
+            string login, haslo;
+            string connectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=contest;";
+            MySqlConnection conn = new MySqlConnection(connectionString);
+            conn.Open();
+            login = logintxt.Text;
+            haslo = textBox2.Text;
+            string query = "select haslo from login where login= '"+login+"';";
+            MySqlCommand cmd = new MySqlCommand(query, conn);
+            MySqlDataReader dr = cmd.ExecuteReader();
+            if(dr.Read())
             {
-                SqlDataReader myReader = null;
-                myReader = myCommand.ExecuteReader();
-                while (myReader.Read())
+                if(haslo == dr.GetString(0))
                 {
-                    //Console.WriteLine(myReader["Column1"].ToString());
-                    //Console.WriteLine(myReader["Column2"].ToString());
-                    logintxt.Text = myReader["Column1"].ToString();
+                    logintxt.Text = "JD";
                 }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
             }
 
         }
