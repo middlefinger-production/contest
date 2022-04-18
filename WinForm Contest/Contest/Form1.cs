@@ -13,6 +13,8 @@ namespace Contest
 {
     public partial class Form1 : Form
     {
+        string login, haslo;
+        string connectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=contest;";
         public Form1()
         {
             InitializeComponent();
@@ -20,8 +22,6 @@ namespace Contest
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string login, haslo;
-            string connectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=contest;";
             MySqlConnection conn = new MySqlConnection(connectionString);
             conn.Open();
             login = logintxt.Text;
@@ -34,6 +34,12 @@ namespace Contest
                 if(haslo == dr.GetString(0))
                 {
                     logintxt.Text = dr.GetString(0);
+                    this.Hide();
+                    Form2 fr2 = new Form2();
+                    fr2.Closed += (s, args) => this.Close();
+                    fr2.Show();
+                    
+
                 }
                 else
                 {

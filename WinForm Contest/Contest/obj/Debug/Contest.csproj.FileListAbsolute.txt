@@ -22,3 +22,4 @@ C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\bin\Debug\K4os.H
 C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\bin\Debug\MySql.Data.xml
 C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.exe.config
 C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.csproj.CopyComplete
+C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.Form2.resources
