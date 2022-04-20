@@ -39,7 +39,7 @@
             this.label1.Margin = new System.Windows.Forms.Padding(9);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(6);
-            this.label1.Size = new System.Drawing.Size(841, 75);
+            this.label1.Size = new System.Drawing.Size(1025, 75);
             this.label1.TabIndex = 0;
             this.label1.Text = "Contest";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -48,7 +48,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(877, 461);
+            this.ClientSize = new System.Drawing.Size(1061, 573);
             this.Controls.Add(this.label1);
             this.Name = "Form2";
             this.Text = "Form2";
