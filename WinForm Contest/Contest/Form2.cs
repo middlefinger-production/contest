@@ -16,5 +16,15 @@ namespace Contest
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            stronaglownagbox.Visible = true;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
 }
