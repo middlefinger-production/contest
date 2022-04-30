@@ -12,34 +12,24 @@ namespace Contest
 {
     public partial class Form2 : Form
     {
+        glowna gl = new glowna();
+        onasuser onasu = new onasuser();
         public Form2()
         {
             InitializeComponent();
         }
-        private void button1_Click(object sender, EventArgs e)
+        private void glownabutton_Click(object sender, EventArgs e)
         {
-            Ukrycie();
-            stronaglownabox.Visible = true;
+            panel.Controls.Add(gl);
+            gl.BringToFront();
+            gl.Show();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void onasbutton_Click(object sender, EventArgs e)
         {
-            Ukrycie();
-            onasbox.Visible = true;
+            panel.Controls.Add(onasu);
+            onasu.BringToFront();
+            onasu.Show();
         }
-
-
-        public void Ukrycie()
-        {
-            foreach(Control c in this.Controls)
-            {
-                if(c is GroupBox)
-                {
-                    c.Visible = false;
-                }
-            }
-        }
-
-        
     }
 }

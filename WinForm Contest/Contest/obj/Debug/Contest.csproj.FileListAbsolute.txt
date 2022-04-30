@@ -23,3 +23,5 @@ C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\bin\Debug\MySql.
 C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.exe.config
 C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.csproj.CopyComplete
 C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.Form2.resources
+C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.glowna.resources
+C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.onasuser.resources
