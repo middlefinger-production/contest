@@ -25,3 +25,5 @@ C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contes
 C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.Form2.resources
 C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.glowna.resources
 C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.onasuser.resources
+C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.glosowaniauser.resources
+C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.konkursyuser.resources

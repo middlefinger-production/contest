@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Contest
 {
-    public partial class onasuser : UserControl
+    public partial class glosowaniauser : UserControl
     {
-        public onasuser()
+        public glosowaniauser()
         {
             InitializeComponent();
-        }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            System.Diagnostics.Process.Start("file:///C:/Users/micha/Documents/GitHub/contest/www/index.html");
         }
     }
 }

@@ -31,10 +31,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.glownabutton = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.konkursbutton = new System.Windows.Forms.Button();
+            this.glosowaniabutton = new System.Windows.Forms.Button();
             this.onasbutton = new System.Windows.Forms.Button();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.panel = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
@@ -76,34 +75,41 @@
             this.glownabutton.UseVisualStyleBackColor = true;
             this.glownabutton.Click += new System.EventHandler(this.glownabutton_Click);
             // 
-            // button2
+            // konkursbutton
             // 
-            this.button2.Location = new System.Drawing.Point(12, 163);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(225, 52);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Konkursy";
-            this.button2.UseVisualStyleBackColor = true;
+            this.konkursbutton.FlatAppearance.BorderSize = 0;
+            this.konkursbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.konkursbutton.Location = new System.Drawing.Point(12, 163);
+            this.konkursbutton.Name = "konkursbutton";
+            this.konkursbutton.Size = new System.Drawing.Size(225, 52);
+            this.konkursbutton.TabIndex = 2;
+            this.konkursbutton.Text = "Konkursy";
+            this.konkursbutton.UseVisualStyleBackColor = true;
+            this.konkursbutton.Click += new System.EventHandler(this.konkursybutton_Click);
             // 
-            // button3
+            // glosowaniabutton
             // 
-            this.button3.Location = new System.Drawing.Point(12, 221);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(225, 52);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Głosowania";
-            this.button3.UseVisualStyleBackColor = true;
+            this.glosowaniabutton.FlatAppearance.BorderSize = 0;
+            this.glosowaniabutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.glosowaniabutton.Location = new System.Drawing.Point(12, 221);
+            this.glosowaniabutton.Name = "glosowaniabutton";
+            this.glosowaniabutton.Size = new System.Drawing.Size(225, 52);
+            this.glosowaniabutton.TabIndex = 2;
+            this.glosowaniabutton.Text = "Głosowania";
+            this.glosowaniabutton.UseVisualStyleBackColor = true;
+            this.glosowaniabutton.Click += new System.EventHandler(this.glosowaniabutton_Click);
             // 
             // onasbutton
             // 
+            this.onasbutton.FlatAppearance.BorderSize = 0;
+            this.onasbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.onasbutton.Location = new System.Drawing.Point(12, 279);
             this.onasbutton.Name = "onasbutton";
             this.onasbutton.Size = new System.Drawing.Size(225, 52);
             this.onasbutton.TabIndex = 2;
             this.onasbutton.Text = "O nas";
             this.onasbutton.UseVisualStyleBackColor = true;
-            this.onasbutton.Click += new System.EventHandler(this.onasbutton_Click); 
-  
+            this.onasbutton.Click += new System.EventHandler(this.onasbutton_Click);
             // 
             // panel
             // 
@@ -119,8 +125,8 @@
             this.ClientSize = new System.Drawing.Size(1071, 622);
             this.Controls.Add(this.panel);
             this.Controls.Add(this.onasbutton);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.glosowaniabutton);
+            this.Controls.Add(this.konkursbutton);
             this.Controls.Add(this.glownabutton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -135,10 +141,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button glownabutton;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button konkursbutton;
+        private System.Windows.Forms.Button glosowaniabutton;
         private System.Windows.Forms.Button onasbutton;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Panel panel;
     }
 }

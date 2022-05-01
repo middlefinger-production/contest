@@ -59,6 +59,12 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="glosowaniauser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="glosowaniauser.Designer.cs">
+      <DependentUpon>glosowaniauser.cs</DependentUpon>
+    </Compile>
     <Compile Include="onasuser.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -73,11 +79,23 @@
     <Compile Include="glownauser.Designer.cs">
       <DependentUpon>glownauser.cs</DependentUpon>
     </Compile>
+    <Compile Include="konkursyuser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="konkursyuser.Designer.cs">
+      <DependentUpon>konkursyuser.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="glosowaniauser.resx">
+      <DependentUpon>glosowaniauser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="konkursyuser.resx">
+      <DependentUpon>konkursyuser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="onasuser.resx">
       <DependentUpon>onasuser.cs</DependentUpon>
