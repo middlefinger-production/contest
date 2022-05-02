@@ -67,6 +67,7 @@
             // 
             this.glownabutton.FlatAppearance.BorderSize = 0;
             this.glownabutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.glownabutton.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.glownabutton.Location = new System.Drawing.Point(12, 105);
             this.glownabutton.Name = "glownabutton";
             this.glownabutton.Size = new System.Drawing.Size(225, 52);
@@ -79,6 +80,7 @@
             // 
             this.konkursbutton.FlatAppearance.BorderSize = 0;
             this.konkursbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.konkursbutton.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.konkursbutton.Location = new System.Drawing.Point(12, 163);
             this.konkursbutton.Name = "konkursbutton";
             this.konkursbutton.Size = new System.Drawing.Size(225, 52);
@@ -91,6 +93,7 @@
             // 
             this.glosowaniabutton.FlatAppearance.BorderSize = 0;
             this.glosowaniabutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.glosowaniabutton.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.glosowaniabutton.Location = new System.Drawing.Point(12, 221);
             this.glosowaniabutton.Name = "glosowaniabutton";
             this.glosowaniabutton.Size = new System.Drawing.Size(225, 52);
@@ -103,6 +106,7 @@
             // 
             this.onasbutton.FlatAppearance.BorderSize = 0;
             this.onasbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.onasbutton.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.onasbutton.Location = new System.Drawing.Point(12, 279);
             this.onasbutton.Name = "onasbutton";
             this.onasbutton.Size = new System.Drawing.Size(225, 52);
