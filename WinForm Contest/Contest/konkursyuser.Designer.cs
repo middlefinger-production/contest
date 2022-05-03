@@ -28,18 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.panel = new System.Windows.Forms.FlowLayoutPanel();
             this.SuspendLayout();
+            // 
+            // panel
+            // 
+            this.panel.Location = new System.Drawing.Point(4, 4);
+            this.panel.Name = "panel";
+            this.panel.Size = new System.Drawing.Size(802, 499);
+            this.panel.TabIndex = 0;
             // 
             // konkursyuser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.Controls.Add(this.panel);
             this.Name = "konkursyuser";
             this.Size = new System.Drawing.Size(809, 506);
+            this.Load += new System.EventHandler(this.konkursyuser_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.FlowLayoutPanel panel;
     }
 }
