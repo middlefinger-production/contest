@@ -9,7 +9,6 @@ C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contes
 C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.csproj.CoreCompileInputs.cache
 C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.exe
 C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.pdb
-C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\bin\Debug\MySql.Data.dll
 C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\bin\Debug\Google.Protobuf.dll
 C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\bin\Debug\ZstdNet.dll
 C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\bin\Debug\K4os.Compression.LZ4.Streams.dll

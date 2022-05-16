@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
-
+using System.Security.Cryptography;
 namespace Contest
 {
     public partial class Form1 : Form
@@ -20,6 +20,20 @@ namespace Contest
             InitializeComponent();
         }
 
+
+        private string hash(string haslo)
+        {
+            var haslobytes = Encoding.ASCII.GetBytes(haslo);
+            haslo = "";
+            SHA256 sha = new SHA256Managed();
+            var hash = sha.ComputeHash(haslobytes);
+            foreach (byte b in hash)
+            {
+                haslo += b.ToString("X2");
+            }
+            return haslo.ToLower();
+            
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             MySqlConnection conn = new MySqlConnection(connectionString);
@@ -31,7 +45,7 @@ namespace Contest
             MySqlDataReader dr = cmd.ExecuteReader();
             if(dr.Read())
             {
-                if(haslo == dr.GetString(0))
+                if(hash(haslo) == dr.GetString(0))
                 {
                     logintxt.Text = dr.GetString(0);
                     this.Hide();
@@ -54,6 +68,8 @@ namespace Contest
                 logintxt.Text = null;
                 textBox2.Text = null;
             }
+
+            
 
         }
     }

@@ -37,7 +37,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.emailtxt = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.wiadomosctxt = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -133,13 +133,13 @@
             this.label7.TabIndex = 3;
             this.label7.Text = "Email:";
             // 
-            // textBox2
+            // emailtxt
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox2.Location = new System.Drawing.Point(96, 160);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(286, 29);
-            this.textBox2.TabIndex = 4;
+            this.emailtxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.emailtxt.Location = new System.Drawing.Point(96, 160);
+            this.emailtxt.Name = "emailtxt";
+            this.emailtxt.Size = new System.Drawing.Size(286, 29);
+            this.emailtxt.TabIndex = 4;
             // 
             // label8
             // 
@@ -171,6 +171,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "Wyślij";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // onasuser
             // 
@@ -179,7 +180,7 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.wiadomosctxt);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.emailtxt);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -208,7 +209,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox emailtxt;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox wiadomosctxt;
         private System.Windows.Forms.Button button1;
