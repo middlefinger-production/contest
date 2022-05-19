@@ -35,7 +35,7 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.imietxt = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.emailtxt = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -114,13 +114,13 @@
             this.label6.TabIndex = 3;
             this.label6.Text = "Imię:";
             // 
-            // textBox1
+            // imietxt
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox1.Location = new System.Drawing.Point(96, 92);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(286, 29);
-            this.textBox1.TabIndex = 4;
+            this.imietxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.imietxt.Location = new System.Drawing.Point(96, 92);
+            this.imietxt.Name = "imietxt";
+            this.imietxt.Size = new System.Drawing.Size(286, 29);
+            this.imietxt.TabIndex = 4;
             // 
             // label7
             // 
@@ -181,7 +181,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.wiadomosctxt);
             this.Controls.Add(this.emailtxt);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.imietxt);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -207,7 +207,7 @@
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox imietxt;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox emailtxt;
         private System.Windows.Forms.Label label8;

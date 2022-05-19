@@ -14,7 +14,7 @@ namespace Contest
     public partial class Form1 : Form
     {
         string login, haslo;
-        string connectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=contest;";
+        public string connectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=contest;";
         public Form1()
         {
             InitializeComponent();
@@ -23,6 +23,7 @@ namespace Contest
 
         private string hash(string haslo)
         {
+            Console.WriteLine(haslo);
             var haslobytes = Encoding.ASCII.GetBytes(haslo);
             haslo = "";
             SHA256 sha = new SHA256Managed();
@@ -33,6 +34,11 @@ namespace Contest
             }
             return haslo.ToLower();
             
+        }
+
+        public string gethash(string haslo)
+        {
+            return hash(haslo);
         }
         private void button1_Click(object sender, EventArgs e)
         {
