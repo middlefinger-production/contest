@@ -15,6 +15,7 @@ namespace Contest
         private onasuser onasu = new onasuser();
         private glosowaniauser glosuser = new glosowaniauser();
         private konkursyuser konkuser = new konkursyuser();
+        private profil profiluser = new profil();
         public Form2()
         {
             InitializeComponent();
@@ -50,10 +51,19 @@ namespace Contest
             glosuser.BringToFront();
             glosuser.Show();
         }
+        private void profilbutton_Click(object sender, EventArgs e)
+        {
+            clearpanel();
+            panel.Controls.Add(profiluser);
+            profiluser.BringToFront();
+            profiluser.Show();
+        }
 
         public void clearpanel()
         {
             panel.Controls.Clear();
         }
+
+        
     }
 }

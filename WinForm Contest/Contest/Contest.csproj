@@ -74,6 +74,12 @@
     <Compile Include="onasuser.Designer.cs">
       <DependentUpon>onasuser.cs</DependentUpon>
     </Compile>
+    <Compile Include="profil.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="profil.Designer.cs">
+      <DependentUpon>profil.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="glownauser.cs">
@@ -102,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="onasuser.resx">
       <DependentUpon>onasuser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="profil.resx">
+      <DependentUpon>profil.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

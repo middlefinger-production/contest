@@ -16,8 +16,9 @@ namespace Contest
     public partial class onasuser : UserControl
     {
         SmtpClient client = new SmtpClient();
-        Form1 form1 = new Form1();
-        private MySqlConnection conn;
+        readonly Form1 form1 = new Form1();
+        public MySqlConnection conn;
+        string query = "";
         public onasuser()
         {
             InitializeComponent();
@@ -29,25 +30,23 @@ namespace Contest
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
-            conn = new MySqlConnection(form1.connectionString);
+        { 
             try
             {
-                client.Credentials = new NetworkCredential("testsmtpwinform@gmail.com", "79b7c73d692d1d3c47d43a5a69c9af73ae127943c69f1b649bc6e4d53301645d");
-                client.EnableSsl = true;
-                client.Port = 587;
+                conn = new MySqlConnection(form1.connstring);
                 conn.Open();
-                string query = "select adres,haslo from email where id = 1";
+                query = "select adres,haslo from email where id = 1";
                 MySqlCommand com = new MySqlCommand(query, conn);
                 MySqlDataReader dr = com.ExecuteReader();
                 if (dr.Read())
                 {
                     client.Host = "smtp.gmail.com";
-                    conn = new MySqlConnection(form1.connectionString);
+                    client.Port = 587;
                     client.Credentials = new NetworkCredential(dr.GetString(0),dr.GetString(1));
                     client.EnableSsl = true;
-                    client.Port = 587;
                     client.DeliveryMethod = SmtpDeliveryMethod.Network;
+
+
                     MailMessage mail = new MailMessage();
                     mail.From = new MailAddress(emailtxt.Text.Trim());
                     mail.To.Add(dr.GetString(0));

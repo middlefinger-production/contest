@@ -26,3 +26,4 @@ C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contes
 C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.onasuser.resources
 C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.glosowaniauser.resources
 C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.konkursyuser.resources
+C:\Users\micha\Documents\GitHub\contest\WinForm Contest\Contest\obj\Debug\Contest.profil.resources

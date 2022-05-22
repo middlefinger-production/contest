@@ -35,6 +35,7 @@
             this.glosowaniabutton = new System.Windows.Forms.Button();
             this.onasbutton = new System.Windows.Forms.Button();
             this.panel = new System.Windows.Forms.Panel();
+            this.profilbutton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -122,12 +123,26 @@
             this.panel.Size = new System.Drawing.Size(809, 506);
             this.panel.TabIndex = 3;
             // 
+            // profilbutton
+            // 
+            this.profilbutton.FlatAppearance.BorderSize = 0;
+            this.profilbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.profilbutton.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.profilbutton.Location = new System.Drawing.Point(12, 337);
+            this.profilbutton.Name = "profilbutton";
+            this.profilbutton.Size = new System.Drawing.Size(225, 52);
+            this.profilbutton.TabIndex = 2;
+            this.profilbutton.Text = "Profil";
+            this.profilbutton.UseVisualStyleBackColor = true;
+            this.profilbutton.Click += new System.EventHandler(this.profilbutton_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1071, 622);
             this.Controls.Add(this.panel);
+            this.Controls.Add(this.profilbutton);
             this.Controls.Add(this.onasbutton);
             this.Controls.Add(this.glosowaniabutton);
             this.Controls.Add(this.konkursbutton);
@@ -149,5 +164,6 @@
         private System.Windows.Forms.Button glosowaniabutton;
         private System.Windows.Forms.Button onasbutton;
         private System.Windows.Forms.Panel panel;
+        private System.Windows.Forms.Button profilbutton;
     }
 }
